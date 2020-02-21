@@ -30,3 +30,23 @@ $ chmod u+x hello.py
 # If we’d rather not have a file extension on our script, 
 # we can now remove that since we’ve put a shebang in the file mv hello.py hello, 
 # and running ./hello will still result in the same thing.
+
+#Adding Scripts to Our $PATH
+
+# Now we need to make sure that we can put this in our $PATH. For this course, 
+# we’ll be using a bin directory in our $HOME folder to store our custom scripts, 
+# but scripts can go into any directory that is in your $PATH.
+
+# Let’s create a bin directory and move our script:
+
+mkdir ~/bin
+mv hello ~/bin/
+
+# Here’s how we add this directory to the $PATH in our .bashrc (the .bashrc for this course already contains this):
+
+export PATH=$HOME/bin:$PATH
+
+Finally, run the hello script from our $PATH:
+
+hello
+Hello, World!
