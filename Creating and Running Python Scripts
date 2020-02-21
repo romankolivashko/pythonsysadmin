@@ -48,5 +48,5 @@ export PATH=$HOME/bin:$PATH
 
 Finally, run the hello script from our $PATH:
 
-hello
+$ hello
 Hello, World!
