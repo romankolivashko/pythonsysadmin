@@ -4,7 +4,8 @@ Tuples are a fixed width, immutable sequence type. We create tuples using parent
 
 >>> point = (2.0, 3.0)
 
-Since tuples are immutable, we don’t have access to the same methods that we do on a list. We can use tuples in some operations like concatenation, but we can’t change the original tuple that we created.
+Since tuples are immutable, we don’t have access to the same methods that we do on a list.
+We can use tuples in some operations like concatenation, but we can’t change the original tuple that we created.
 
 >>> point_3d = point + (4.0,)
 >>> point_3d
