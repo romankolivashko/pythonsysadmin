@@ -2,7 +2,8 @@ Strings
 Open a REPL to start exploring Python strings:
 
 $ python3.6
-We’ve already worked with a string when we created our “Hello, World!” program. We create strings using either single quotes ('), double quotes ("), or triple single or double quotes for a multi-line string:
+We’ve already worked with a string when we created our “Hello, World!” program. We create strings using either single quotes ('), 
+double quotes ("), or triple single or double quotes for a multi-line string:
 
 >>> 'single quoted string'
 'single quoted string'
@@ -21,7 +22,8 @@ We can combine strings using the + operator and multiply a string by a number us
 'password'
 >>> "Ha" * 4
 'HaHaHaHa'
-A string is a sequence of characters grouped together. We need to cover the concept of an “Object” in object-oriented programming before moving on.
+A string is a sequence of characters grouped together. 
+We need to cover the concept of an “Object” in object-oriented programming before moving on.
 
 An “object” encapsulates two things:
 
@@ -39,7 +41,8 @@ find locates the first instance of a character (or string) in a string. This fun
 2
 >>> "double".find('bl')
 3
-lower converts all of the characters in a string to their lowercase versions (if they have one). This function returns a new string without changing the original, and this becomes important later:
+lower converts all of the characters in a string to their lowercase versions (if they have one). 
+This function returns a new string without changing the original, and this becomes important later:
 
 >>> "TeStInG".lower() # "testing"
 'testing'
