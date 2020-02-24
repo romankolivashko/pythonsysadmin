@@ -47,7 +47,8 @@ NameError: name 'ages' is not defined
 >>> ages
 {'kevin': 59, 'bob': 40}
 
-It’s not uncommon to want to know what keys or values we have without caring about the pairings. For that situation we have the values and keys methods:
+It’s not uncommon to want to know what keys or values we have without caring about the pairings. 
+For that situation we have the values and keys methods:
 
 >>> ages = {'kevin': 59, 'bob': 40}
 >>> ages.keys()
@@ -60,7 +61,8 @@ dict_values([59, 40])
 [59, 40]
 
 Alternative Ways to Create a dict Using Keyword Arguments
-There are a few other ways to create dictionaries that we might see, those being those that use the dict constructor with key/value arguments and a list of tuples:
+There are a few other ways to create dictionaries that we might see, 
+those being those that use the dict constructor with key/value arguments and a list of tuples:
 
 >>> weights = dict(kevin=160, bob=240, kayla=135)
 >>> weights
